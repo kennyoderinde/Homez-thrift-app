@@ -126,13 +126,13 @@
 
 
 /* ADDITEM BEGINS HERE */
- .hclr{
-    height: 120px;
+  .hclr{
+    height: 60px;
 }
-
+/*
 .home-page{
     padding: 30px 18%;
-}
+} */
 .add-list{
     padding: 30px 18%;
     flex-wrap: wrap;

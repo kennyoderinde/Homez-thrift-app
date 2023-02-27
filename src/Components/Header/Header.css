@@ -2,6 +2,8 @@
     color: #002f34;
 }
 .header{
+    width: 215vh;
+    min-height: auto;
     position: sticky;
     top: 0px;
     left: 0px;
@@ -14,7 +16,8 @@
 .header-logo{
 }
 .header-logo img{
-    width: 115%;
+    width: 90%;
+    height: 60%;
     margin-left: -120px;
 }
 .header .location{
@@ -125,62 +128,115 @@
 
 
 
-/* ADDITEM BEGINS HERE */
-  .hclr{
-    height: 60px;
+/* ITEM DISPLAY BEGINS HERE */
+*{
+    box-sizing: border-box;
 }
-/*
-.home-page{
-    padding: 30px 18%;
-} */
-.add-list{
-    padding: 30px 18%;
+
+.main-container{
+    width: 95%;
+    margin-left: 10%;
+    display: flex;
     flex-wrap: wrap;
+    background: transparent;
+    position: relative;
+    top: 150px;
+    bottom: 20%;
     
-} 
-.add-item{
-    min-width: 270px;
-    min-height: 266px;
-    max-width: 270px;
-    max-height: 266px;
-    flex-basis: 20%;
-    margin: 8px;
-    border: 1px solid #ddd;
-    padding: 8px;
+}
+
+h2{
+    text-align: center;
+    margin-left: 30%;
+}
+.tile{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    margin: 10px 15px ;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 30px 56.12px rgb(55 55 55 / 12%);
+    position: relative;
+}
+
+.box{
+    padding: 0px 20px 10px 20px;
+    background: transparent;
+    box-shadow: 5px;
+
 
 }
-.add-item .poster{
-    height: 160px;
+
+img{
+    width: 270px;
+    height: 270px;
+    border-radius: 5px;
+
+
 }
-.add-item .poster.placeholder{}
-.add-item .title{
-    margin: 10px 0px;
+.title{
+    text-align: center;
+    margin: 0px 0 0 0;
+
 }
-.add-item .title.placeholder{
-    height: 25px;
-    width: 75%;
+
+.id{
+    margin: 0px 40px 0 0 ;
+    background: rgb(200, 200, 200);
+    width: 30px;
+    height: 35px;
+    padding: 6px;
+    margin: -50px 0 10px 250px;
+
+
 }
-.add-item .tagline{}
-.add-item .tagline.placeholder{}
-.add-item .ftr{
-    margin-top: 10px;
+
+
+.title{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
 }
-.add-item .ftr .location{
-    flex: 2;
-}
-.add-item .ftr .location.placeholder{
-    height: 12px;
-    max-width: 100px;
-}
-.add-item .ftr .stamp{
-    flex: 1;
-}
-.add-item .ftr .stamp.placeholder{
-    height: 0px;
-}
+.condition{
+    margin: 0 0 15px 20px;
+    width: 15px;
+    font-weight: 500;
+    color: ;
+    display: ;
+    color: darkgray;
+ 
+ }
+ .price{
+    font-size: 18px;
+    margin-top: -10px;
+    font-weight: 700;
+ }
+
+ .buy{
+    width: 100px;
+    background: rgb(255, 115, 0);
+    position: absolute;
+    left: 36%;
+    top: 88%;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #bab9b9;
+    font-size: 18px;
+
+ }
+ @media screen and ( max-width: 800px) {
+
+ }
+ /* RIBBON SECTION */
 
 .load-more{
-    margin: 40px auto;
+    margin: 180px auto;
     display: table;
     border: 0px;
     background: #fff;
@@ -188,6 +244,7 @@
     border-radius: 10px;
     box-shadow: inset 0px 0px 0px 5px #012f34;
     color: #012f34;
+    
 
 }
 .load-more:hover{
@@ -197,12 +254,52 @@
 
 .app-ribbon{
     padding: 0px 18%;
+    margin-top: -100px;
+    display: flex;
+    position: relative;
 }
-.app-ribbon .img{}
-.app-ribbon .img img{width: 400%;}
-.app-ribbon .meta{}
-.app-ribbon .meta .title{}
-.app-ribbon .meta .slogan{}
+.app-ribbon img{
+    width: 80%;
+    height: 100%;
+    margin-left: 0px ;
+}
+
+.meta{
+    width: 100%;
+    margin-right: 100px;
+    display: block;
+
+    
+}
+
+.rb-title{
+    font-weight: 700;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.meta .rb-slogan{
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+
+
+}
+
+.links{
+    margin-right: -300px;
+}
+     
+.link-title{
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -80px;
+
+}
+
+.app-ribbon .{}
+/* .app-ribbon .meta .slogan{}
 .app-ribbon .links{}
 .app-ribbon .links .title{
     margin-bottom: 20px;
@@ -210,8 +307,7 @@
 .app-ribbon .links .as{}
 .app-ribbon .links .a{
     margin: 0px 10px 0px 0px;
-}
-.app-ribbon .links a:hover{}
+} */
 
 
-
+/* footer */

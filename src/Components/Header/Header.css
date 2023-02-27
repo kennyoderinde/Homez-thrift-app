@@ -17,9 +17,9 @@
 .header-logo{
 }
 .header-logo img{
-    width: 100%;
+    width: 70%;
     height: 60%;
-    margin-left: -120px;
+    margin-left: -40px;
 }
 .header .location{
     background: #fff;

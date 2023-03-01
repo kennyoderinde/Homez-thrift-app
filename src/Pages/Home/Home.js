@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import AddItem from "../AddItem"
+import "./Home.css"
 
 
 const apiData = [  {    "id": 1,    "title": "150Litre Chest Freezer ",    "price": "N108,000",  "condition": "USED", "image_url": "https://pictures-nigeria.jijistatic.com/106631700_ODQyLTE1MDAtYzRiY2E4MGE4Mg.webp"  },  

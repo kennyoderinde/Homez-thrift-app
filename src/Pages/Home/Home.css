@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    position: relative;
+    top: 150px;
+    bottom: 20%;
+    
+}
+
+h2{
+    text-align: center;
+    margin-left: 30%;
+}
+.tile{
+    
+    display: grid;
+    grid-template-columns: 4fr -2fr 60px;
+    margin: 10px 15px ;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 30px 56.12px rgb(55 55 55 / 12%);
+    position: relative;
+}
+
+.box{
+    padding: 0px 20px 10px 20px;
+    background: transparent;
+    box-shadow: 5px;
+}
+
+img{
+    width: 270px;
+    height: 270px;
+    border-radius: 5px;
+
+
+}
+.title{
+    text-align: center;
+    margin: 0px 0 0 0;
+
+}
+
+.id{
+    margin: 0px 40px 0 0 ;
+    background: rgb(200, 200, 200);
+    width: 30px;
+    height: 35px;
+    padding: 6px;
+    margin: -50px 0 10px 250px;
+
+
+}
+
+
+.title{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.condition{
+    margin: 0 0 15px 20px;
+    width: 15px;
+    font-weight: 500;
+    color: ;
+    display: ;
+    color: darkgray;
+ 
+ }
+ .price{
+    font-size: 18px;
+    margin-top: -10px;
+    font-weight: 700;
+ }
+
+ .buy{
+    width: 100px;
+    background: rgb(255, 115, 0);
+    position: absolute;
+    left: 36%;
+    top: 88%;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #bab9b9;
+    font-size: 18px;
+
+ }
+ @media screen and ( max-width: 800px) {
+
+ }
+ /* RIBBON SECTION */
+
+.load-more{
+    margin: 180px auto;
+    display: table;
+    border: 0px;
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 0px 5px #012f34;
+    color: #012f34;
+    
+
+}
+.load-more:hover{
+    box-shadow: inset -1px -1px 0px 25px #012f34;
+    color: #fff;
+}
+
+.app-ribbon{
+    padding: 0px 18%;
+    margin-top: -100px;
+    display: flex;
+    position: relative;
+}
+.app-ribbon img{
+    width: 80%;
+    height: 100%;
+    margin-left: 0px ;
+}
+
+.meta{
+    width: 100%;
+    margin-right: 100px;
+    display: block;
+
+    
+}
+
+.rb-title{
+    font-weight: 700;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.meta .rb-slogan{
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+
+
+}
+
+.links{
+    margin-right: -300px;
+}
+     
+.link-title{
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: -80px;
+
+}

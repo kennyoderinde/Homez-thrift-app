@@ -30,7 +30,7 @@ h2{
     cursor: pointer;
     box-shadow: 5px 30px 56.12px rgb(55 55 55 / 12%);
     position: relative;
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
 
 }
 
@@ -126,24 +126,26 @@ img{
     margin-top: -100px;
     display: flex;
     position: relative;
+    border: 2px solid #ddd;
 }
 .app-ribbon img{
-    width: 80%;
-    height: 100%;
-    margin-left: 0px ;
+    width: 70%;
+    height: 80%;
+    margin-left: -40% ;
 }
 
 .meta{
     width: 100%;
     margin-right: 100px;
     display: block;
+    margin-top: 20px;
 
     
 }
 
 .rb-title{
     font-weight: 700;
-    margin-left: 90px;
+    margin-left: -50px;
     text-align: center;
     font-size: 16px;
 
@@ -154,7 +156,7 @@ img{
     font-weight: 500;
     padding: 20px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: -300px;
 
 
 }
@@ -168,6 +170,6 @@ img{
 
     font-size: 26px;
     font-weight: 600;
-    margin-left: -80px;
+    margin-left: -300px;
 
 }

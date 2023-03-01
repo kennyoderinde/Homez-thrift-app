@@ -18,6 +18,12 @@ const apiData = [  {    "id": 1,    "title": "150Litre Chest Freezer ",    "pric
                       {     "id": 12,    "title": "MacBook Pro",    "price": "N230,00",  "condition": "USED",  "image_url": "https://pictures-nigeria.jijistatic.com/99645192_MTUwMC0xMTI1LTE1NGE2MDU3MjQ.webp"  },
                       {     "id": 13,    "title": "Apple iPhone",    "price": "N32,000",  "condition": "USED",  "image_url": "https://pictures-nigeria.jijistatic.com/116823393_MTUwMC0yMDAwLWJjYzRhMjg5NGM.webp"  },
                       {     "id": 14,    "title": "Industrial Food Warmer",    "price": "N120,000",   "condition": "NEW", "image_url": "https://pictures-nigeria.jijistatic.com/113333456_NzIwLTk2MC0xNDg1YWEwZWJi.webp"  },  
+                      {     "id": 15,    "title": "Pizza Oven 2-Deck",    "price": "N80,000",   "condition": "USED", "image_url": "https://pictures-nigeria.jijistatic.com/111358060_MTA4MC04MTAtMjkyOGJmYTJjZS0x.webp"  },  
+                      {     "id": 16,    "title": "Reebok Zig Edge",    "price": "N30,000",   "condition": "NEW", "image_url": "https://pictures-nigeria.jijistatic.com/98747010_MTI4MC0xMjgwLTc3ODQzZGRhNWM.webp"  },  
+                      {     "id": 17,    "title": "Givenchy Luzury Shoe",    "price": "N40,000",   "condition": "USED", "image_url": "https://pictures-nigeria.jijistatic.com/90221797_MTI4MC0xMjgwLTg4YjlhNWIzMjQ.webp"  },  
+                      {     "id": 18,    "title": "Kids Kitchen Set",    "price": "N6,000",   "condition": "USED", "image_url": "https://pictures-nigeria.jijistatic.com/113718321_MTYwMC0yMTM0LWJkZmZlY2RiM2E.webp"  },  
+                      {     "id": 19,    "title": "Techno Camon 19",    "price": "N56,000",   "condition": "USED", "image_url": "https://pictures-nigeria.jijistatic.com/115983393_MTEyNS0xNTAwLTdmMTAyYzY0YzU.webp"  },  
+                      {     "id": 20,    "title": "Apple iPhone 14pro",    "price": "N130,000",   "condition": "USED", "image_url": "https://pictures-nigeria.jijistatic.com/116780994_MTA4MC0xMzA3LTA2YTliN2EwYjM.webp"  },  
 
                     ]
 

@@ -64,13 +64,13 @@ img{
 
 
 .title{
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 8px;
 }
 .condition{
-    margin: 0 0 15px 20px;
-    width: 15px;
+    margin: -5px 0 15px 20px;
+    width: 14px;
     font-weight: 500;
     color: ;
     display: ;
@@ -78,13 +78,13 @@ img{
  
  }
  .price{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: -10px;
     font-weight: 700;
  }
 
  .buy{
-    width: 100px;
+    width: 80px;
     background: rgb(255, 115, 0);
     position: absolute;
     left: 36%;
@@ -94,7 +94,7 @@ img{
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0px 2px 2px #bab9b9;
-    font-size: 18px;
+    font-size: 16px;
 
  }
  @media screen and ( max-width: 800px) {

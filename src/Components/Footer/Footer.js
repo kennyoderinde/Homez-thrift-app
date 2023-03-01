@@ -8,7 +8,7 @@ export default function Footer() {
     <React.Fragment>
         <div className='footer flex'>
             <div className='block'>
-                <h2 className='title'> Popular Categories</h2>
+                <h2 className='title1'> Popular Categories</h2>
                 <ul>
                     <Link to="/" className='noul'><li>Mobile Phone</li></Link>
                     <Link to="/" className='noul'><li>Kitcheneries</li></Link>
@@ -19,7 +19,7 @@ export default function Footer() {
                 
             </div>
             <div className='block'>
-            <h2 className='title'> Trending Searches</h2>
+            <h2 className='title1'> Trending Searches</h2>
                 <ul>
                     <Link to="/" className='noul'><li>Mobile Phone</li></Link>
                     <Link to="/" className='noul'><li>Kitcheneries</li></Link>
@@ -28,7 +28,7 @@ export default function Footer() {
                     <Link to="/" className='noul'><li>Electronics</li></Link>
                 </ul>
             </div><div className='block'>
-                <h2 className='title'> About Us</h2>
+                <h2 className='title2'> About Us</h2>
                 <ul>
                     <Link to="/" className='noul'><li>Facebook</li></Link>
                     <Link to="/" className='noul'><li>Instagram</li></Link>
@@ -36,7 +36,7 @@ export default function Footer() {
                     <Link to="/" className='noul'><li>WhatsApp</li></Link>
                 </ul>
             </div><div className='block'>
-                <h2 className='title'> Homez</h2>
+                <h2 className='title2'> Homez</h2>
                 <ul>
                     <Link to="/" className='noul'><li>Shipping & Returns</li></Link>
                     <Link to="/" className='noul'><li>Payment Method</li></Link>

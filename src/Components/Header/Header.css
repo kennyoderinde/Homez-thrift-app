@@ -1,20 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 .color{
     color: #002f34;
 }
 .header{
-    width: 215vh;
-    min-height: auto;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0px;
     left: 0px;
     height: 90px;
-    z-index: 9;
+    z-index: 1000;
     background: #f1f1f1;
     box-shadow: 0px 2px 2px #bab9b9;
     padding: 0px 18%;
-    background-size: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .header-logo{
+    margin-left: -60px;
 }
 .header-logo img{
     width: 70%;
@@ -70,12 +78,13 @@
 .header .action{
     flex: 1;
     max-width: 200px;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    
 }
 .header .action a{
     color: #002f34;
-    margin: 0px 20px 10px 0px;
+    margin: 0px 30px 10px 30px;
 }
 .header .action .sell{
     padding: 10px;
@@ -89,6 +98,7 @@
     border: 2px #ffa500 solid;
     padding: 8px 20px;
     box-shadow: 0px 3px 5px #a9a9a9;
+    margin-right: -60px;
 }
 
 .header .action .sell .ico{
